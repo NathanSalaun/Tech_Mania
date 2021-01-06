@@ -1,0 +1,84 @@
+body{background-color: dimgrey}
+
+.services {width: 50px;
+    float: right;
+    display: flex;
+    margin-right: 30px}
+
+header div {border: black 1px none;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+margin-right: 10px}
+
+header p{font-family: "Arial Black";
+text-align: center;
+    border: none;
+margin-left: 400px;
+margin-top: 20px;
+font-size: xx-large}
+
+header {display: flex;
+    margin: auto;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-bottom: 0px}
+
+.logo{width: 250px}
+
+ul {text-align: center}
+
+li{list-style: none;
+    display: inline-block;
+    border: black solid 1px;
+    padding: 1%;
+    border-radius: 5px;
+    background-color:#d7da00;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+font-family: "Arial Black"}
+
+article{border: black 2px solid;
+width: 70%;
+margin: auto;
+margin-top: 20px;
+border-radius: 15px;
+background-color: #888888;
+font-family: Arial}
+
+section input{background-color:  #d7da00;
+font-family: "Arial Black";
+border: none;
+margin: auto;
+display: flex;
+margin-top: 20px}
+
+footer {border: 1px solid black;
+    background-color: yellow;
+    margin-top: 15px;
+    height: 150px}
+
+footer div {border: black 1px none;
+    display: flex;
+    justify-content: center;
+    margin: auto}
+
+.reseau{ width: 70px;
+    float: left;
+    margin-left: 50%}
+
+@media all and (max-device-width: 480px)
+{
+    nav li {padding: 0.5%}
+    header {height: 150px}
+    input{margin-top: 85px;
+        width: 90%;
+        position: absolute;
+        margin-left: 40px}
+    header div {margin-right: 0;
+        margin-top: 20px}
+    main{width: 90%}
+}

@@ -1,0 +1,19 @@
+body{background-color: #555555}
+
+header{border: 1px solid black;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    margin-top: 13%}
+
+p {text-align: center;
+    font-family: "Arial Black"}
+
+header p {font-size: xx-large;
+    color: #003666;
+    text-shadow: 1px 1px 1px black}
+
+@media all and (max-device-width: 480px)
+{
+    header{margin-top: 80%}
+}

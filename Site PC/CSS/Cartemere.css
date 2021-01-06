@@ -1,0 +1,105 @@
+.services {width: 50px;
+    float: right;
+    display: flex;
+    margin-right: 30px}
+
+header div {border: black 1px none;
+    display: flex;
+    justify-content: right;
+    margin: auto}
+
+input{width: 55%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    height: 50px}
+
+header {display: flex;
+    margin: auto;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-bottom: 0px}
+
+.logo{width: 250px}
+
+nav ul {text-align: center}
+
+nav li{list-style: none;
+    display: inline-block;
+    border: black solid 1px;
+    padding: 1%;
+    border-radius: 5px;
+    background-color:#d7da00;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Arial Black"}
+
+body{background-color: dimgrey }
+
+article{border: solid 2px black;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white}
+
+article img {width: 150px;float: left}
+
+article a {border: solid black 1px;
+    border-radius: 5px;
+    padding: 5%;
+    background-color: #d7da00;
+    color: black;
+    box-shadow: 2px 2px 2px black}
+
+
+article h1{font-size: xx-large}
+
+span {position: absolute;
+    margin-left: 900px;
+    display: block}
+
+footer {border: 1px solid black;
+    background-color: yellow;
+    margin-top: 15px;
+    height: 150px}
+
+footer div {border: black 1px none;
+    display: flex;
+    justify-content: center;
+    margin: auto}
+
+.reseau{ width: 70px;
+    float: left;
+    margin-left: 50%}
+
+ul {text-align: center}
+
+footer li{list-style: none;
+    display: inline-block;
+    border: black solid 1px;
+    padding: 1%;
+    border-radius: 5px;
+    background-color:#d7da00;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Arial Black"}
+
+@media all and (max-device-width: 480px)
+{
+    nav li {padding: 0.5%}
+    header {height: 150px}
+    input{margin-top: 85px;
+        width: 90%;
+        position: absolute;
+        margin-left: 40px}
+    header div {margin-right: 0;
+        margin-top: 20px}
+    main{width: 90%}
+}

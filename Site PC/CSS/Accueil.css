@@ -1,0 +1,95 @@
+.services {width: 50px;
+    float: right;
+    display: flex;
+    margin-right: 30px}
+
+header div {border: black 1px none;
+    display: flex;
+    justify-content: right;
+    margin: auto}
+
+input{width: 55%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    height: 50px}
+
+header {display: flex;
+    margin: auto;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-bottom: 0px}
+
+.logo{width: 250px}
+
+ul {text-align: center}
+
+li{list-style: none;
+    display: inline-block;
+    border: black solid 1px;
+    padding: 1%;
+    border-radius: 5px;
+    background-color:#d7da00;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Arial Black"}
+
+main img {width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    height: 350px;
+    border: black solid 2px}
+
+main {border: black solid 2px;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #888888}
+
+.Intel{margin-bottom: 20px}
+
+body {background-color: dimgrey;
+    font-family: "Arial Black"}
+
+footer {border: 1px solid black;
+    background-color: yellow;
+    margin-top: 15px;
+    height: 150px}
+
+footer div {border: black 1px none;
+    display: flex;
+    justify-content: center;
+    margin: auto}
+
+.reseau{ width: 70px;
+    float: left;
+    margin-left: 50%}
+
+.description{border: 1px solid black;
+    text-align: center;
+    display: flex;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: medium;}
+
+@media all and (max-device-width: 480px)
+{
+    nav li {padding: 0.5%}
+    header {height: 150px}
+    input{margin-top: 85px;
+        width: 90%;
+        position: absolute;
+        margin-left: 40px}
+    header div {margin-right: 0;
+        margin-top: 20px}
+    main{width: 90%}
+}

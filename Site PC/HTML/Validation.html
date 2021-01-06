@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech_Mania/Validation</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="../CSS/Validation.css">
+</head>
+<body>
+
+<header>
+    <a href="Accueil%20TechMania.html">
+        <img class="logo" src="../Image/Logo/Capture_d_écran__7_-removebg-preview.png" alt="logo">
+    </a>
+    <p>VALIDATION</p>
+    <div>
+        <a href="Panier.html">
+            <img class="services" src="../Image/wicker-basket.png" alt="Panier">
+        </a>
+
+        <a href="../HTML/QuiSommesNous.html">
+            <img class="services" src="../Image/30234.svg" alt="QuiSommesNous?">
+        </a>
+
+        <a href="../HTML/Compte.html">
+            <img class="services" src="../Image/account.png" alt="comptes">
+        </a>
+    </div>
+
+</header>
+
+<article>
+    <p><h2>Adresse de Livraison :</h2></p>
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Prénom" size="30" maxlength="20" />
+        </p>
+        <p>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="20" />
+        </p>
+        <p>
+            <label for="adresse">Adresse postale :</label>
+            <input type="text" name="adresse" id="adresse" placeholder="Adresse Postale" size="30" maxlength="100" />
+        </p>
+        <p>
+            <label for="ville">Ville :</label>
+            <input type="text" name="ville" id="ville" placeholder="Ville" size="30" maxlength="30" />
+        </p>
+        <p>
+            <label for="cp">Code Postal :</label>
+            <input type="text" name="cp" id="cp" placeholder="Code Postal" size="30" maxlength="5" />
+        </p>
+        <p>
+            <label for="num">Numéro de téléphone :</label>
+            <input type="tel" name="num" id="num" placeholder="Numéro de téléphone" size="30" maxlength="10" />
+        </p>
+    </form>
+</article>
+
+<article>
+    <p><h2>Moyen de paiement :</h2></p>
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="prenomCB">Prénom Propriétaire :</label>
+            <input type="text" name="prenomCB" id="prenomCB" placeholder="Prénom" size="30" maxlength="20" />
+        </p>
+        <p>
+            <label for="nomCB">Nom Propriétaire :</label>
+            <input type="text" name="nomCB" id="nomCB" placeholder="Nom" size="30" maxlength="20" />
+        </p>
+        <p>
+            <label for="numéro">Numéro de carte :</label>
+            <input type="text" name="numéro" id="numéro" placeholder="Numéro de carte" size="30" maxlength="20" />
+        </p>
+        <p>
+            <label for="date">Date d'expiration :</label>
+            <input type="date" name="date" id="date"/>
+        </p>
+        <p>
+            <label for="crypto">Cryptogramme :</label>
+            <input type="text" name="crypto" id="crypto" placeholder="Cryptogramme" size="30" maxlength="3" />
+        </p>
+    </form>
+</article>
+
+<section>
+    <input type="submit" value="Terminé la commande !" />
+</section>
+
+<footer>
+    <ul>
+        <a href="QuiSommesNous.html"><li>Qui sommes nous ?</li></a>
+        <a href="Commentaire.html"><li>Commentaire</li></a>
+    </ul>
+    <div>
+        <a href="https://fr-fr.facebook.com/">
+            <img class="reseau" src="../Image/Facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/">
+            <img class="reseau" src="../Image/Instagram.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/?lang=fr">
+            <img class="reseau" src="../Image/Twitter.png" alt="Twitter">
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
